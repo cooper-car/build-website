@@ -1,6 +1,4 @@
-# 使用 AWS lightsail 建置個人網站
-
-## build a website
+## 使用 AWS lightsail 建置個人網站
 由於已經在本機透過docker寫好網站，只需要將code和db table放到網站上去
 
 ### tech
