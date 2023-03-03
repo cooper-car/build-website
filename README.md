@@ -9,6 +9,7 @@
 ### environment
  - apache
    依照官方文件調整 apache configuration
+   
  - phpmyadmin
    - download {name}.pem key (透過console下載)
    - chmod 600 {name}.pem
@@ -22,6 +23,7 @@
      - git clone 專案
      - 執行 composer install
      - 執行 composer update (optional)
+
    - .env檔建立
      - laravel key generate
      - 填上DB password
