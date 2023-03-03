@@ -29,7 +29,7 @@
      - 填上DB password
 
 ### trouble shooting
-- 遇到權限上的問題
+- 遇到權限上的問題\ 
   https://stackoverflow.com/questions/72877284/laravel-docker-permission-denied-the-exception-occurred-while-attempting-to-log
 
 ### reference
