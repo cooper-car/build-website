@@ -15,6 +15,7 @@
    - ssh -N -L 8888:127.0.0.1:80 -i {name}.pem bitnami@{server-ip}
    - 貼上 http://127.0.0.1:8888/phpmyadmin 就會看到畫面摟
    - migrate database table
+
 - laravel code
    - 下載相依套件 
      - 進入 lightsail instance的terminal
@@ -25,10 +26,10 @@
      - laravel key generate
      - 填上DB password
 
-#### trouble shooting
+### trouble shooting
 - 遇到權限上的問題
   https://stackoverflow.com/questions/72877284/laravel-docker-permission-denied-the-exception-occurred-while-attempting-to-log
 
-#### reference
+### reference
 https://docs.bitnami.com/aws/infrastructure/lamp/get-started/use-laravel/
 
