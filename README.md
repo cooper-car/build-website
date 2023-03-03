@@ -1,5 +1,6 @@
 ## 使用 AWS lightsail 建置個人網站
 由於已經在本機透過docker寫好網站，只需要將code和db table放到網站上去
+基本上透過官方文件就可以將網站設定完成
 
 ### tech
 - laravel
@@ -34,4 +35,3 @@
 
 ### reference
 https://docs.bitnami.com/aws/infrastructure/lamp/get-started/use-laravel/
-
