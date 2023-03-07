@@ -27,11 +27,23 @@
 
    - .env檔建立
      - laravel key generate
-     - 填上DB password
+     - 填上DB password   
 
+### Point domain to lightsail
+- Networking 
+  - Create and assign a Static IP address to an instance
+
+- Domain & DNS
+  - create a DNS zone
+  - 把 Name servers 資訊貼到購買網址的後台
+  - create DNS records & SSL憑證
+    - 參考這部影片： https://www.youtube.com/watch?v=LDVQhN7zJvQ
+  
 ### trouble shooting
-- 遇到權限上的問題\
+- Laravel遇到權限上的問題\
 https://stackoverflow.com/questions/72877284/laravel-docker-permission-denied-the-exception-occurred-while-attempting-to-log
 
 ### reference
-https://docs.bitnami.com/aws/infrastructure/lamp/get-started/use-laravel/
+https://docs.bitnami.com/aws/infrastructure/lamp/get-started/use-laravel \
+https://docs.bitnami.com/general/how-to/understand-bncert/#certificates-not-renewed-automatically
+
